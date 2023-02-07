@@ -1,0 +1,161 @@
+body {
+    font-size:29px;
+    background:rgb(239,242,245);
+    height: 880px;
+    width:100%;
+}
+#web-name{
+    position:relative;
+    top:200px;
+    left:230px;
+}
+.desc{
+    font-size:29px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.name{
+    font-family: sans-serif;
+    font-size:3.2em;
+    color:rgb(25,119,242);
+    font-weight: bolder;
+    padding:3px;
+}
+.web-figure{
+    width:400px;
+    height:360px;
+    background-color:white;
+    position:relative;
+    left:805px;
+    bottom:30px;
+    border-radius:10px;
+    font-size:16px;
+    font-family:Arial;
+}
+.web-photo{
+    width:250px;
+    padding:5px;
+}
+.web-register{
+    font-size:16px;
+    position:relative;
+    left:805px;
+    bottom:20px;
+    text-align: center;
+    width:400px;
+
+}
+#web-login{
+    width:360px;
+    position:relative;
+    left:20px;
+    top:20px;
+    height:55px;
+    border-radius:5px;
+    border:1px solid gray;
+    font-size:16px;
+}
+#web-password{
+    width:360px;
+    position:relative;
+    left:20px;
+    top:30px;
+    height:55px;
+    border-radius:5px;
+    border:1px solid gray;
+    font-size:16px;
+}
+#web-go{
+    width:365px;
+    position:relative;
+    left:20px;
+    top:40px;
+    height:55px;
+    border-radius:5px;
+    border: white;
+    background-color:rgb(21,110,229);
+    color:white;
+    font-size:19px;
+}
+#web-forget{
+    font-family:Arial;
+    font-size:14px;
+    width:360px;
+    position:relative;
+    left:135px;
+    top:50px;
+    height:55px;
+    color:rgb(21,110,229);
+    font-size:17px;
+
+}
+#web-create{
+    width:230px;
+    position:relative;
+    left:85px;
+    top:60px;
+    height:45px;
+    border-radius:5px;
+    color:white;
+    border: white;
+    background-color: rgb(53,164,32);
+    font-size:17px;
+}
+.line{
+    color:black;
+    height:1px;
+    position:relative;
+    left:30px;
+    top:30px;
+}
+a:link{
+    color:rgb(21,110,229);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:rgb(21,110,229);
+}
+a.new-web-page{
+    color:black;
+}
+.footer{
+    width:1500px;
+    height:200px;
+    background-color:white;
+    position:relative;
+    top:115px;
+    left:0px;
+}
+#footer-desc{
+    position:relative;
+    left:230px;
+    top:18px;
+    font-size:14px;
+    color:grey;
+}
+a.footer-desc-link{
+    position: relative;
+    right:30px;
+    color:gray;
+    
+}
+li{
+    display: inline-block;
+    padding:2px;
+}
+ul{
+    position:relative;
+    width:990px;
+
+}
+.line2{
+    position: relative;
+    bottom:10px;
+}
+.web-ul{
+    position: relative;
+    bottom:20px;
+}
