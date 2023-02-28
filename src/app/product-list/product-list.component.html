@@ -1,0 +1,29 @@
+<div>
+  <div class="categories">
+    <div  *ngFor="let category of categories">
+      <button (click)="takeCategory(category)">
+        {{ category }}
+      </button>
+    </div>
+  </div>
+
+  <div>
+    <div *ngIf="takeCategory(currentCategory).length > 0">
+      <div *ngFor="let product of takeCategory(currentCategory)">
+        <app-product-item
+                [product]="product"
+                (likesUpdate)="updateLike($event, product)"
+                (deleteUpdate)="delete(product)"
+        ></app-product-item>
+        <div class="share-button">
+          <button type="button" (click)="share(product.reference)">Share</button>
+          <button type="button" (click)="onNotify()">Notify</button>
+
+        </div>
+      </div>
+    </div>
+    <div *ngIf="takeCategory(currentCategory).length === 0">
+      <h2>Empty</h2>
+    </div>
+  </div>
+</div>
