@@ -1,0 +1,23 @@
+
+.categories {
+    padding: 5px;
+    display: flex;
+    position: relative;
+    left: 500px;
+    background-color: #e63030;
+}
+.share-button{
+    position: relative;
+    bottom:40px;
+    padding:5px;
+    left:50px;
+}
+
+
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
