@@ -1,0 +1,13 @@
+<div class="album-page">
+  <div class="album-page-title">
+    <h1>ALBUM PAGE</h1>
+  </div>
+  <div>
+    <div class ="album-page-item" *ngFor="let album of albums">
+      <a class="link" routerLink="{{album.id}}">
+        {{album.id}}--{{album.title}}
+      </a>
+      <button class="button-delete" (click)="handleDeleteAlbum(album)">X</button>
+    </div>
+  </div>
+</div>

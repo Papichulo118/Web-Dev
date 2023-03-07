@@ -1,0 +1,15 @@
+.sidebar{
+  padding-top : 50px;
+  height: 100vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-right: 1px solid gray;
+}
+.sidebar-items-list{
+  flex-direction: column;
+  display:flex;
+
+}
+
